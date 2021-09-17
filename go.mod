@@ -47,3 +47,7 @@ require (
 	k8s.io/apimachinery v0.16.9
 	k8s.io/client-go v0.16.9
 )
+
+replace (
+	github.com/apache/dubbo-go-hessian2 => ../dubbo-go-hessian2
+)

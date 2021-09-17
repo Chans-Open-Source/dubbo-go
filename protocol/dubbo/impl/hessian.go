@@ -304,7 +304,11 @@ func unmarshalResponseBody(body []byte, p *DubboPackage) error {
 		return nil
 
 	case RESPONSE_VALUE, RESPONSE_VALUE_WITH_ATTACHMENTS:
+		if respPayload, ok := p.Body.(*ResponsePayload); ok && respPayload != nil {
+			decoder.SetRespBody(respPayload.RspObj)
+		}
 		rsp, err := decoder.Decode()
+		decoder.SetRespBody(nil)
 		if err != nil {
 			return perrors.WithStack(err)
 		}
