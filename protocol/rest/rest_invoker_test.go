@@ -29,14 +29,14 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/protocol/invocation"
-	"github.com/apache/dubbo-go/protocol/rest/client"
-	"github.com/apache/dubbo-go/protocol/rest/client/client_impl"
-	rest_config "github.com/apache/dubbo-go/protocol/rest/config"
-	"github.com/apache/dubbo-go/protocol/rest/server/server_impl"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/protocol/rest/client"
+	"github.com/chans-open-source/dubbo-go/protocol/rest/client/client_impl"
+	rest_config "github.com/chans-open-source/dubbo-go/protocol/rest/config"
+	"github.com/chans-open-source/dubbo-go/protocol/rest/server/server_impl"
 )
 
 const (

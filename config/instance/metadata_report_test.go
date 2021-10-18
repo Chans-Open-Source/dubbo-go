@@ -26,11 +26,11 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/metadata/identifier"
-	"github.com/apache/dubbo-go/metadata/report"
-	"github.com/apache/dubbo-go/metadata/report/factory"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/metadata/identifier"
+	"github.com/chans-open-source/dubbo-go/metadata/report"
+	"github.com/chans-open-source/dubbo-go/metadata/report/factory"
 )
 
 func TestGetMetadataReportInstance(t *testing.T) {

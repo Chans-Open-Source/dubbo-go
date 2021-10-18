@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/metadata/service"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/metadata/service"
 )
 
 var (
@@ -48,8 +48,8 @@ func GetMetadataService(msType string) (service.MetadataService, error) {
 		return creator()
 	}
 	return nil, perrors.New(fmt.Sprintf("could not find the metadata service creator for metadataType: %s, please check whether you have imported relative packages, \n"+
-		"local - github.com/apache/dubbo-go/metadata/service/inmemory, \n"+
-		"remote - github.com/apache/dubbo-go/metadata/service/remote", msType))
+		"local - github.com/chans-open-source/dubbo-go/metadata/service/inmemory, \n"+
+		"remote - github.com/chans-open-source/dubbo-go/metadata/service/remote", msType))
 }
 
 // GetRemoteMetadataService will get a RemoteMetadataService instance

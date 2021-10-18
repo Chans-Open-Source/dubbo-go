@@ -30,8 +30,8 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
 )
 
 // test rebuild the ctx

@@ -27,9 +27,9 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/registry"
 )
 
 func TestRestSubscribedURLsSynthesizer_Synthesize(t *testing.T) {

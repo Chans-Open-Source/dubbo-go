@@ -30,10 +30,10 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/protocol"
-	"github.com/apache/dubbo-go/protocol/invocation"
-	"github.com/apache/dubbo-go/protocol/mock"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/protocol/mock"
 )
 
 func TestActiveFilterInvoke(t *testing.T) {

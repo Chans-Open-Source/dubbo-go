@@ -18,8 +18,8 @@
 package tag
 
 import (
-	"github.com/apache/dubbo-go/cluster/router"
-	"github.com/apache/dubbo-go/common/yaml"
+	"github.com/chans-open-source/dubbo-go/cluster/router"
+	"github.com/chans-open-source/dubbo-go/common/yaml"
 )
 
 /**

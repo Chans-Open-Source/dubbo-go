@@ -27,7 +27,7 @@ import (
 import (
 	"github.com/apache/dubbo-getty"
 
-	hessian "github.com/apache/dubbo-go-hessian2"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
 
 	gxtime "github.com/dubbogo/gost/time"
 
@@ -35,10 +35,10 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/protocol/invocation"
-	"github.com/apache/dubbo-go/remoting"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/remoting"
 )
 
 // todo: WritePkg_Timeout will entry *.yml

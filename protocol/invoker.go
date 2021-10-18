@@ -27,8 +27,8 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/logger"
 )
 
 var (
@@ -41,7 +41,7 @@ var (
 )
 
 // Invoker the service invocation interface for the consumer
-//go:generate mockgen -source invoker.go -destination mock/mock_invoker.go  -self_package github.com/apache/dubbo-go/protocol/mock --package mock  Invoker
+//go:generate mockgen -source invoker.go -destination mock/mock_invoker.go  -self_package github.com/chans-open-source/dubbo-go/protocol/mock --package mock  Invoker
 // Extension - Invoker
 type Invoker interface {
 	common.Node

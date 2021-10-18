@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common"
 )
 
 // ConfigLoadProcessor is an extension to give users a chance to customize configs against ReferenceConfig and

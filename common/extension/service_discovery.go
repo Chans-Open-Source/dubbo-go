@@ -21,7 +21,7 @@ import (
 	perrors "github.com/pkg/errors"
 )
 import (
-	"github.com/apache/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/registry"
 )
 
 var (

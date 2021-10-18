@@ -29,12 +29,12 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/common/observer"
-	"github.com/apache/dubbo-go/common/observer/dispatcher"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/common/observer"
+	"github.com/chans-open-source/dubbo-go/common/observer/dispatcher"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/registry"
 )
 
 var testName = "test"

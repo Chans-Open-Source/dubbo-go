@@ -27,12 +27,12 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/cluster/router"
-	"github.com/apache/dubbo-go/cluster/router/chain"
-	"github.com/apache/dubbo-go/cluster/router/utils"
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/protocol"
-	"github.com/apache/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/cluster/router"
+	"github.com/chans-open-source/dubbo-go/cluster/router/chain"
+	"github.com/chans-open-source/dubbo-go/cluster/router/utils"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
 )
 
 const (

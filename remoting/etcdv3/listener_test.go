@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/remoting"
+	"github.com/chans-open-source/dubbo-go/remoting"
 )
 
 var changedData = `

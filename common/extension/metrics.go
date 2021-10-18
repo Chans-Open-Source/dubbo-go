@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/apache/dubbo-go/metrics"
+	"github.com/chans-open-source/dubbo-go/metrics"
 )
 
 var (

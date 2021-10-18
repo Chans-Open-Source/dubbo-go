@@ -30,10 +30,10 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/cluster/router"
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/cluster/router"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 // FileTagRouter Use for parse config file of Tag router

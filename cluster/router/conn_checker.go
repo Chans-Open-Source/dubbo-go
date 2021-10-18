@@ -18,7 +18,7 @@
 package router
 
 import (
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 // ConnChecker is used to determine whether the invoker is healthy or not

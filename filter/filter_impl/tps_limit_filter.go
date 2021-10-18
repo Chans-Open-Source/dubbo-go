@@ -21,13 +21,13 @@ import (
 	"context"
 )
 import (
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/filter"
-	_ "github.com/apache/dubbo-go/filter/filter_impl/tps"
-	_ "github.com/apache/dubbo-go/filter/handler"
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/filter"
+	_ "github.com/chans-open-source/dubbo-go/filter/filter_impl/tps"
+	_ "github.com/chans-open-source/dubbo-go/filter/handler"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 const (

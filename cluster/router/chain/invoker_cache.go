@@ -22,9 +22,9 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/cluster/router"
-	"github.com/apache/dubbo-go/cluster/router/utils"
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/cluster/router"
+	"github.com/chans-open-source/dubbo-go/cluster/router/utils"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 // Cache caches all addresses relevant info for a snapshot of received invokers. It keeps a snapshot of the received

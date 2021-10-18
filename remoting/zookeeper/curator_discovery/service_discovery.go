@@ -33,10 +33,10 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/remoting"
-	"github.com/apache/dubbo-go/remoting/zookeeper"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/remoting"
+	"github.com/chans-open-source/dubbo-go/remoting/zookeeper"
 )
 
 // Entry contain a service instance

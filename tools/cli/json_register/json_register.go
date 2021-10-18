@@ -24,12 +24,12 @@ import (
 )
 
 import (
-	hessian "github.com/apache/dubbo-go-hessian2"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
 	jparser "github.com/dubbogo/gost/encoding/json"
 )
 
 import (
-	"github.com/apache/dubbo-go/tools/cli/common"
+	"github.com/chans-open-source/dubbo-go/tools/cli/common"
 )
 
 // RegisterStructFromFile create the interface defined by @path file, and register it to hessian

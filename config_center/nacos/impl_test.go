@@ -28,9 +28,9 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/config_center"
-	"github.com/apache/dubbo-go/config_center/parser"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/config_center"
+	"github.com/chans-open-source/dubbo-go/config_center/parser"
 )
 
 func getNacosConfig(t *testing.T) config_center.DynamicConfiguration {

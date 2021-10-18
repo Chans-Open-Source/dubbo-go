@@ -33,17 +33,17 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/cluster/cluster_impl"
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/config"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/common/proxy/proxy_factory"
-	"github.com/apache/dubbo-go/config/interfaces"
-	"github.com/apache/dubbo-go/config_center"
-	"github.com/apache/dubbo-go/metadata/service"
-	"github.com/apache/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/cluster/cluster_impl"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/config"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/common/proxy/proxy_factory"
+	"github.com/chans-open-source/dubbo-go/config/interfaces"
+	"github.com/chans-open-source/dubbo-go/config_center"
+	"github.com/chans-open-source/dubbo-go/metadata/service"
+	"github.com/chans-open-source/dubbo-go/registry"
 )
 
 const mockConsumerConfigPath = "./testdata/consumer_config.yml"

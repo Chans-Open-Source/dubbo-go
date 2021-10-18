@@ -18,8 +18,8 @@
 package event
 
 import (
-	"github.com/apache/dubbo-go/common/observer"
-	"github.com/apache/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/common/observer"
+	"github.com/chans-open-source/dubbo-go/registry"
 )
 
 // ServiceInstanceEvent means something happen to this ServiceInstance

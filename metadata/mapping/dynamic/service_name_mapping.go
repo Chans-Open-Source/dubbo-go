@@ -29,13 +29,13 @@ import (
 )
 
 import (
-	commonCfg "github.com/apache/dubbo-go/common/config"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/config_center"
-	"github.com/apache/dubbo-go/metadata/mapping"
+	commonCfg "github.com/chans-open-source/dubbo-go/common/config"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/config_center"
+	"github.com/chans-open-source/dubbo-go/metadata/mapping"
 )
 
 const (

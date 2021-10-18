@@ -24,20 +24,20 @@ import (
 )
 
 import (
-	hessian "github.com/apache/dubbo-go-hessian2"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
 
 	"github.com/stretchr/testify/assert"
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/proxy/proxy_factory"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/protocol"
-	"github.com/apache/dubbo-go/protocol/dubbo/impl"
-	"github.com/apache/dubbo-go/protocol/invocation"
-	"github.com/apache/dubbo-go/remoting"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/proxy/proxy_factory"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol/dubbo/impl"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/remoting"
 )
 
 func TestTCPPackageHandle(t *testing.T) {

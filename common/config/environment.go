@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/config_center"
+	"github.com/chans-open-source/dubbo-go/config_center"
 )
 
 // Environment

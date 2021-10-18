@@ -17,7 +17,7 @@
 
 package file
 
-import "github.com/apache/dubbo-go/config_center"
+import "github.com/chans-open-source/dubbo-go/config_center"
 
 // RegistryConfigurationListener represent the processor of flie watcher
 type RegistryConfigurationListener struct {

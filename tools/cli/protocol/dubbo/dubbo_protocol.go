@@ -25,13 +25,13 @@ import (
 )
 
 import (
-	hessian "github.com/apache/dubbo-go-hessian2"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
 	perrors "github.com/pkg/errors"
 )
 
 import (
-	"github.com/apache/dubbo-go/tools/cli/common"
-	"github.com/apache/dubbo-go/tools/cli/protocol"
+	"github.com/chans-open-source/dubbo-go/tools/cli/common"
+	"github.com/chans-open-source/dubbo-go/tools/cli/protocol"
 )
 
 func init() {

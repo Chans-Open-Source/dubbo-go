@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/observer"
+	"github.com/chans-open-source/dubbo-go/common/observer"
 )
 
 // The Service Discovery Changed  Event Listener

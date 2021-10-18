@@ -18,7 +18,7 @@ package hessian2
 
 import (
 	"encoding/binary"
-	"github.com/apache/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/common/logger"
 	"math"
 	"reflect"
 	"strconv"
@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	hessian "github.com/apache/dubbo-go-hessian2"
-	"github.com/apache/dubbo-go-hessian2/java_exception"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
+	"github.com/chans-open-source/dubbo-go-hessian2/java_exception"
 	perrors "github.com/pkg/errors"
 )
 

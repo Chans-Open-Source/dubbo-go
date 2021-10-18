@@ -18,7 +18,7 @@
 package config_center
 
 import (
-	"github.com/apache/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common"
 )
 
 // DynamicConfigurationFactory gets the DynamicConfiguration

@@ -18,7 +18,7 @@
 package dispatcher
 
 import (
-	"github.com/apache/dubbo-go/common/observer"
+	"github.com/chans-open-source/dubbo-go/common/observer"
 )
 
 // MockEventDispatcher will do nothing.

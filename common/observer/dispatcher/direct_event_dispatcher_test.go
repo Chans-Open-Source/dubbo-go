@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/observer"
+	"github.com/chans-open-source/dubbo-go/common/observer"
 )
 
 func TestDirectEventDispatcher_Dispatch(t *testing.T) {

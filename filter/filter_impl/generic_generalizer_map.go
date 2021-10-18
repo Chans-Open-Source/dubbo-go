@@ -25,14 +25,14 @@ import (
 )
 
 import (
-	hessian "github.com/apache/dubbo-go-hessian2"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
 	"github.com/mitchellh/mapstructure"
 	perrors "github.com/pkg/errors"
 )
 
 import (
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/protocol/dubbo/hessian2"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/protocol/dubbo/hessian2"
 )
 
 var (

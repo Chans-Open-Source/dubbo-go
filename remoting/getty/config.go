@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/config"
 )
 
 const (

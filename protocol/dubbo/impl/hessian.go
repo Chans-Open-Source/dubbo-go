@@ -26,15 +26,15 @@ import (
 )
 
 import (
-	hessian "github.com/apache/dubbo-go-hessian2"
-	"github.com/apache/dubbo-go-hessian2/java_exception"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
+	"github.com/chans-open-source/dubbo-go-hessian2/java_exception"
 	perrors "github.com/pkg/errors"
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/logger"
 )
 
 type HessianSerializer struct {

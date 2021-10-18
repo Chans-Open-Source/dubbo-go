@@ -25,9 +25,9 @@ import (
 	gxset "github.com/dubbogo/gost/container/set"
 )
 import (
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/metadata/mapping"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/metadata/mapping"
 )
 
 func init() {

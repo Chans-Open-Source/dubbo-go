@@ -18,8 +18,8 @@
 package extension
 
 import (
-	"github.com/apache/dubbo-go/cluster/router"
-	"github.com/apache/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/cluster/router"
+	"github.com/chans-open-source/dubbo-go/common"
 )
 
 var (

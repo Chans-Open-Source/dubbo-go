@@ -30,9 +30,9 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/metadata/identifier"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/metadata/identifier"
 )
 
 const defaultEtcdV3WorkDir = "/tmp/default-dubbo-go-registry.etcd"

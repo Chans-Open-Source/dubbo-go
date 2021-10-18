@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/apache/dubbo-go/protocol/rest/server"
+	"github.com/chans-open-source/dubbo-go/protocol/rest/server"
 )
 
 var (

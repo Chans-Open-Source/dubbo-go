@@ -18,8 +18,8 @@
 package filter
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 // AccessKeyPair stores the basic attributes for authentication.

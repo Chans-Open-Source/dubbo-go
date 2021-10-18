@@ -27,7 +27,7 @@ import (
 )
 
 import (
-	hessian "github.com/apache/dubbo-go-hessian2"
+	hessian "github.com/chans-open-source/dubbo-go-hessian2"
 
 	perrors "github.com/pkg/errors"
 
@@ -35,11 +35,11 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	. "github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/protocol"
-	"github.com/apache/dubbo-go/protocol/invocation"
-	"github.com/apache/dubbo-go/remoting"
+	"github.com/chans-open-source/dubbo-go/common"
+	. "github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/remoting"
 )
 
 func TestRunSuite(t *testing.T) {

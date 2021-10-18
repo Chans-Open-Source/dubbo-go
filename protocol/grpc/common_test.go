@@ -27,10 +27,10 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/protocol"
-	"github.com/apache/dubbo-go/protocol/grpc/internal"
-	"github.com/apache/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol/grpc/internal"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
 )
 
 // userd grpc-dubbo biz service

@@ -22,9 +22,9 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/cluster/router/chain"
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/cluster/router/chain"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 type staticDirectory struct {

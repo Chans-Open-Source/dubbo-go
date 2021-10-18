@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/config"
-	_ "github.com/apache/dubbo-go/config_center/apollo"
+	"github.com/chans-open-source/dubbo-go/common/config"
+	_ "github.com/chans-open-source/dubbo-go/config_center/apollo"
 )
 
 func getMockMap() map[string]string {

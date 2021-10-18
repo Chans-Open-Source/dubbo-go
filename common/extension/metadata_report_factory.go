@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/apache/dubbo-go/metadata/report/factory"
+	"github.com/chans-open-source/dubbo-go/metadata/report/factory"
 )
 
 var (

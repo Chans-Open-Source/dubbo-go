@@ -28,7 +28,7 @@ import (
 )
 
 import (
-	_ "github.com/apache/dubbo-go/cluster/router/condition"
+	_ "github.com/chans-open-source/dubbo-go/cluster/router/condition"
 )
 
 const testYML = "testdata/router_config.yml"

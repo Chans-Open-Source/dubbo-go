@@ -24,9 +24,9 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/config_center"
-	"github.com/apache/dubbo-go/remoting"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/config_center"
+	"github.com/chans-open-source/dubbo-go/remoting"
 )
 
 type apolloListener struct {

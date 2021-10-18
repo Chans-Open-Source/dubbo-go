@@ -23,10 +23,10 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/registry"
-	"github.com/apache/dubbo-go/registry/servicediscovery/instance"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/registry/servicediscovery/instance"
 )
 
 func init() {

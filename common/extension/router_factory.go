@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/cluster/router"
+	"github.com/chans-open-source/dubbo-go/cluster/router"
 )
 
 var (

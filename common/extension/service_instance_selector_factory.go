@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/registry/servicediscovery/instance"
+	"github.com/chans-open-source/dubbo-go/registry/servicediscovery/instance"
 )
 
 var (

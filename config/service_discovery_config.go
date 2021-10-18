@@ -18,7 +18,7 @@
 package config
 
 import (
-	"github.com/apache/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/constant"
 )
 
 // ServiceDiscoveryConfig will be used to create

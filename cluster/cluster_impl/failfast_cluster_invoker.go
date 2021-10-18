@@ -21,8 +21,8 @@ import (
 	"context"
 )
 import (
-	"github.com/apache/dubbo-go/cluster"
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/cluster"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 type failfastClusterInvoker struct {

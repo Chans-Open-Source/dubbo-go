@@ -23,8 +23,8 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/tools/cli/client"
-	"github.com/apache/dubbo-go/tools/cli/json_register"
+	"github.com/chans-open-source/dubbo-go/tools/cli/client"
+	"github.com/chans-open-source/dubbo-go/tools/cli/json_register"
 )
 
 var host string

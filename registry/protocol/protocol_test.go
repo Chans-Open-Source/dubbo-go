@@ -28,18 +28,18 @@ import (
 )
 
 import (
-	cluster "github.com/apache/dubbo-go/cluster/cluster_impl"
-	"github.com/apache/dubbo-go/common"
-	common_cfg "github.com/apache/dubbo-go/common/config"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/config_center"
-	"github.com/apache/dubbo-go/config_center/configurator"
-	"github.com/apache/dubbo-go/protocol"
-	"github.com/apache/dubbo-go/protocol/protocolwrapper"
-	"github.com/apache/dubbo-go/registry"
-	"github.com/apache/dubbo-go/remoting"
+	cluster "github.com/chans-open-source/dubbo-go/cluster/cluster_impl"
+	"github.com/chans-open-source/dubbo-go/common"
+	common_cfg "github.com/chans-open-source/dubbo-go/common/config"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/config_center"
+	"github.com/chans-open-source/dubbo-go/config_center/configurator"
+	"github.com/chans-open-source/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol/protocolwrapper"
+	"github.com/chans-open-source/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/remoting"
 )
 
 func init() {

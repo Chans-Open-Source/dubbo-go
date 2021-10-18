@@ -30,18 +30,18 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/cluster/cluster_impl"
-	_ "github.com/apache/dubbo-go/cluster/router"
-	_ "github.com/apache/dubbo-go/cluster/router/condition"
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/protocol/invocation"
-	"github.com/apache/dubbo-go/protocol/mock"
-	"github.com/apache/dubbo-go/protocol/protocolwrapper"
-	"github.com/apache/dubbo-go/registry"
-	"github.com/apache/dubbo-go/remoting"
+	"github.com/chans-open-source/dubbo-go/cluster/cluster_impl"
+	_ "github.com/chans-open-source/dubbo-go/cluster/router"
+	_ "github.com/chans-open-source/dubbo-go/cluster/router/condition"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/config"
+	"github.com/chans-open-source/dubbo-go/protocol/invocation"
+	"github.com/chans-open-source/dubbo-go/protocol/mock"
+	"github.com/chans-open-source/dubbo-go/protocol/protocolwrapper"
+	"github.com/chans-open-source/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/remoting"
 )
 
 func init() {

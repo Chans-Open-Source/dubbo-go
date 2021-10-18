@@ -27,7 +27,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/constant"
 )
 
 func TestDubboPackage_MarshalAndUnmarshal(t *testing.T) {

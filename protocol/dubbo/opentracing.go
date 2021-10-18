@@ -21,7 +21,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 )
 import (
-	invocation_impl "github.com/apache/dubbo-go/protocol/invocation"
+	invocation_impl "github.com/chans-open-source/dubbo-go/protocol/invocation"
 )
 
 func injectTraceCtx(currentSpan opentracing.Span, inv *invocation_impl.RPCInvocation) error {

@@ -18,7 +18,7 @@
 package common
 
 import (
-	"github.com/apache/dubbo-go/tools/cli/protocol"
+	"github.com/chans-open-source/dubbo-go/tools/cli/protocol"
 )
 
 var (

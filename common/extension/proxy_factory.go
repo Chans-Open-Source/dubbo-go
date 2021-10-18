@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/apache/dubbo-go/common/proxy"
+	"github.com/chans-open-source/dubbo-go/common/proxy"
 )
 
 var (

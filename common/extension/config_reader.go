@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/apache/dubbo-go/config/interfaces"
+	"github.com/chans-open-source/dubbo-go/config/interfaces"
 )
 
 var (

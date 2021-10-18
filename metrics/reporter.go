@@ -23,7 +23,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/protocol"
+	"github.com/chans-open-source/dubbo-go/protocol"
 )
 
 const (

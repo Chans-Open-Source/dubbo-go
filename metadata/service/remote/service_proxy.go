@@ -21,14 +21,14 @@ import (
 	"strings"
 )
 import (
-	"github.com/apache/dubbo-go/common"
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/logger"
-	"github.com/apache/dubbo-go/config/instance"
-	"github.com/apache/dubbo-go/metadata/identifier"
-	"github.com/apache/dubbo-go/metadata/report"
-	"github.com/apache/dubbo-go/metadata/service"
-	"github.com/apache/dubbo-go/registry"
+	"github.com/chans-open-source/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common/constant"
+	"github.com/chans-open-source/dubbo-go/common/logger"
+	"github.com/chans-open-source/dubbo-go/config/instance"
+	"github.com/chans-open-source/dubbo-go/metadata/identifier"
+	"github.com/chans-open-source/dubbo-go/metadata/report"
+	"github.com/chans-open-source/dubbo-go/metadata/service"
+	"github.com/chans-open-source/dubbo-go/registry"
 )
 
 type metadataServiceProxy struct {

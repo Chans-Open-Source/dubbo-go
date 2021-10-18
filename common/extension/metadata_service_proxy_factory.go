@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/metadata/service"
+	"github.com/chans-open-source/dubbo-go/metadata/service"
 )
 
 var (
@@ -43,6 +43,6 @@ func GetMetadataServiceProxyFactory(name string) service.MetadataServiceProxyFac
 		return f()
 	}
 	panic(fmt.Sprintf("could not find the metadata service factory creator for name: %s, please check whether you have imported relative packages, \n"+
-		"local - github.com/apache/dubbo-go/metadata/service/inmemory, \n"+
-		"remote - github.com/apache/dubbo-go/metadata/service/remote", name))
+		"local - github.com/chans-open-source/dubbo-go/metadata/service/inmemory, \n"+
+		"remote - github.com/chans-open-source/dubbo-go/metadata/service/remote", name))
 }

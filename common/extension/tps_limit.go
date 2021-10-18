@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/apache/dubbo-go/filter"
+	"github.com/chans-open-source/dubbo-go/filter"
 )
 
 var (

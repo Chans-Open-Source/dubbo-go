@@ -18,7 +18,7 @@
 package config
 
 import (
-	"github.com/apache/dubbo-go/common"
+	"github.com/chans-open-source/dubbo-go/common"
 	"testing"
 )
 
@@ -28,7 +28,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/common/extension"
+	"github.com/chans-open-source/dubbo-go/common/extension"
 )
 
 func doInitProvider() {
