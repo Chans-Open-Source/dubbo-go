@@ -155,7 +155,7 @@ You can find more support in the [imports](https://github.com/dubbogo/imports).
 
 ## Quick Start
 
-[dubbo-go-samples](https://github.com/chans-open-source/dubbo-go-samples) gives many examples to  tell u how to use dubbo-go. Please read the [dubbo-samples/golang/README.md](https://github.com/chans-open-source/dubbo-go-samples/blob/master/README.md) carefully to learn how to dispose the configuration and compile the program.
+[dubbo-go-samples](https://github.com/apache/dubbo-go-samples) gives many examples to  tell u how to use dubbo-go. Please read the [dubbo-samples/golang/README.md](https://github.com/apache/dubbo-go-samples/blob/master/README.md) carefully to learn how to dispose the configuration and compile the program.
 
 ## Running unit tests
 

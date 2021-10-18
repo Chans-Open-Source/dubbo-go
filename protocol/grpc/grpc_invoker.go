@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	hessian2 "github.com/chans-open-source/dubbo-go-hessian2"
+	hessian2 "github.com/apache/dubbo-go-hessian2"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/connectivity"
 )

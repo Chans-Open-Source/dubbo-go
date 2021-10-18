@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	"github.com/chans-open-source/dubbo-go-hessian2"
+	"github.com/apache/dubbo-go-hessian2"
 	perrors "github.com/pkg/errors"
 )
 

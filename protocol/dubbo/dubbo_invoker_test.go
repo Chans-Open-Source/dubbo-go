@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	hessian "github.com/chans-open-source/dubbo-go-hessian2"
+	hessian "github.com/apache/dubbo-go-hessian2"
 	"github.com/opentracing/opentracing-go"
 	perrors "github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"

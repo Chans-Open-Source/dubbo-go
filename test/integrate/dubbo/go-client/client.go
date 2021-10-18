@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	hessian "github.com/chans-open-source/dubbo-go-hessian2"
+	hessian "github.com/apache/dubbo-go-hessian2"
 	_ "github.com/chans-open-source/dubbo-go/common/proxy/proxy_factory"
 	"github.com/chans-open-source/dubbo-go/config"
 	_ "github.com/chans-open-source/dubbo-go/protocol/dubbo"

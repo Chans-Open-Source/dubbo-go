@@ -37,7 +37,7 @@ echo "github pull request head branch -> ${GITHUB_HEAD_REF}"
 
 samples_testing() {
     echo "use dubbo-go-samples $3 branch for integration testing"
-    git clone -b "$3" https://github.com/chans-open-source/dubbo-go-samples.git samples && cd samples
+    git clone -b "$3" https://github.com/apache/dubbo-go-samples.git samples && cd samples
 
     # update dubbo-go to current commit id
     go mod edit -replace=github.com/chans-open-source/dubbo-go=github.com/"$1"@"$2"
@@ -63,7 +63,7 @@ local_testing() {
 }
 
 # check dubbo-go-samples corresponding branch
-res=$(git ls-remote --heads https://github.com/chans-open-source/dubbo-go-samples.git "$3" | wc -l)
+res=$(git ls-remote --heads https://github.com/apache/dubbo-go-samples.git "$3" | wc -l)
 if [ "$res" -eq "1" ]; then
     samples_testing "$@"
 else

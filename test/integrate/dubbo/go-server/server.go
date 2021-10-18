@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	hessian "github.com/chans-open-source/dubbo-go-hessian2"
+	hessian "github.com/apache/dubbo-go-hessian2"
 	_ "github.com/chans-open-source/dubbo-go/cluster/cluster_impl"
 	_ "github.com/chans-open-source/dubbo-go/cluster/loadbalance"
 	_ "github.com/chans-open-source/dubbo-go/common/proxy/proxy_factory"

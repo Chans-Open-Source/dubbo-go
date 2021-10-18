@@ -154,7 +154,7 @@ Apache License, Version 2.0
 
 ## 快速开始 ##
 
-[dubbo-samples/golang](https://github.com/chans-open-source/dubbo-go-samples)这个项目的事例展示了如何使用 dubbo-go 。请仔细阅读 [dubbo-samples/golang/README.md](https://github.com/chans-open-source/dubbo-go-samples/blob/master/README.md) 学习如何处理配置并编译程序。
+[dubbo-samples/golang](https://github.com/apache/dubbo-go-samples)这个项目的事例展示了如何使用 dubbo-go 。请仔细阅读 [dubbo-samples/golang/README.md](https://github.com/apache/dubbo-go-samples/blob/master/README.md) 学习如何处理配置并编译程序。
 
 ## 运行单测
 
@@ -178,7 +178,7 @@ make test
 
 ## 编译
 
-请移步 [dubbo-go-samples](https://github.com/chans-open-source/dubbo-go-samples)
+请移步 [dubbo-go-samples](https://github.com/apache/dubbo-go-samples)
 
 ## 如何贡献
 

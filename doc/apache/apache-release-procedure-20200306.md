@@ -241,9 +241,9 @@ Hello Dubbo/Dubbogo Community,
  This is a call for vote to release Apache dubbo-go-hessian2 version v1.4.0 RC1.
 
  The release candidates: https://dist.apache.org/repos/dist/dev/dubbo/dubbo-go-hessian2/v1.4.0-rc1/
- Git tag for the release: https://github.com/chans-open-source/dubbo-go-hessian2/tree/1.4
+ Git tag for the release: https://github.com/apache/dubbo-go-hessian2/tree/1.4
  Hash for the release tag: 4c31e88c35afe84c0321d9f12f036e6d3c8962d0
- Release Notes: https://github.com/chans-open-source/dubbo-go-hessian2/blob/1.4/CHANGE.md
+ Release Notes: https://github.com/apache/dubbo-go-hessian2/blob/1.4/CHANGE.md
  The artifacts have been signed with Key :7DB68550D366E4C0, which can be found in the keys file:
  https://dist.apache.org/repos/dist/dev/dubbo/KEYS
 
