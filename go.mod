@@ -18,7 +18,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-co-op/gocron v0.1.1
-	github.com/go-resty/resty/v2 v2.3.0
+	github.com/go-resty/resty/v2 v2.7.0
 	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.5.2
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
@@ -44,10 +44,10 @@ require (
 	go.uber.org/zap v1.16.0
 	google.golang.org/grpc v1.38.0
 	google.golang.org/protobuf v1.26.0
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.16.9
 	k8s.io/apimachinery v0.16.9
 	k8s.io/client-go v0.16.9
 	k8s.io/kube-openapi v0.0.0-20191107075043-30be4d16710a // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 )
