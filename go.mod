@@ -42,12 +42,12 @@ require (
 	go.etcd.io/etcd/server/v3 v3.5.0-alpha.0
 	go.uber.org/atomic v1.7.0
 	go.uber.org/zap v1.16.0
-	google.golang.org/grpc v1.38.0
-	google.golang.org/protobuf v1.26.0
+	google.golang.org/grpc v1.50.0
+	google.golang.org/protobuf v1.27.1
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.16.9
 	k8s.io/apimachinery v0.16.9
 	k8s.io/client-go v0.16.9
 	k8s.io/kube-openapi v0.0.0-20191107075043-30be4d16710a // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 )
