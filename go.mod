@@ -13,7 +13,7 @@ require (
 	github.com/dubbogo/go-zookeeper v1.0.3
 	github.com/dubbogo/gost v1.11.14
 	github.com/dubbogo/triple v1.0.1
-	github.com/emicklei/go-restful/v3 v3.4.0
+	github.com/emicklei/go-restful/v3 v3.8.0
 	github.com/frankban/quicktest v1.4.1 // indirect
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/ghodss/yaml v1.0.0
@@ -34,8 +34,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.9.0
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
-	github.com/stretchr/objx v0.2.0 // indirect
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.0
 	github.com/zouyx/agollo/v3 v3.4.5
 	go.etcd.io/etcd/api/v3 v3.5.0-alpha.0
 	go.etcd.io/etcd/client/v3 v3.5.0-alpha.0
@@ -43,11 +42,10 @@ require (
 	go.uber.org/atomic v1.7.0
 	go.uber.org/zap v1.16.0
 	google.golang.org/grpc v1.38.0
-	google.golang.org/protobuf v1.26.0
-	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.16.9
-	k8s.io/apimachinery v0.16.9
-	k8s.io/client-go v0.16.9
-	k8s.io/kube-openapi v0.0.0-20191107075043-30be4d16710a // indirect
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0
+	k8s.io/api v0.26.1
+	k8s.io/apimachinery v0.26.1
+	k8s.io/client-go v0.16.9
 )
